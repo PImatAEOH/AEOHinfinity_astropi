@@ -1,0 +1,1257 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 1,
+            center: new google.maps.LatLng(37.774900, -122.419400)
+        });
+
+        var marker_icon_FF0000 = {
+            url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAiCAYAAACwaJKDAAAABmJLR0QA/wD/AP+gvaeTAAACBklEQVRIia3VzUtUURgH4GdG/AiyZZShtWgXUbSIFtGqRYtqWRLhXyBYf0K6MaJQ2gRtayHtijYpleHKSCgIcRHoIiOSKEzLKea0OOeqTfPlzPzg5Qwz9zz3nXPvPTeneo7gNA4gjyI+Ygbva8z9L2cxi9BHOE+4msY+gliz6biayWE0R7GfMEcoEkJJzRH6CbnY+WiaVxEc6yY8KQOVq8eE7tj1WCV4qIswUyeY1QyhK8JDpWAP1m7vEMzqTkTXkrOZkYOEQoNogXAowiPE2wQuDqC9nktZJu0YSE72XRs2phrsMqup2OkG2vLpRB19DXaZJc3vQHv294Um0e3z8yigsNQkmuYXUMie5/npJtE0fz55YLiXsNHELdUbV2B4+4n2Y/Vmg+itCK4m558MdhBe7hCcJnRGdLDS0ox3E17XCb4h7IngeLX1zuFhD2G5BriytY4Tqmx9WXbh3Tnl99KsLkdwAbtrgVmO4/eDCuCkzd3/TL1glru9hF8lYJFwMoKPdgrCXqzfL0GfR7CIo42gcO9YCXopolONgnAC4W0Cv9l8dVxpBoWFGwmdiOC6Glc8X+3HlKeT6cOzOLzAjyaaBBc602ZzOHZ6vVkQ9kl7Qi6ip1qBwpdrEfwjPnFVU8+awuKrOC7hZ6vQlQ9baM3Ui379HsfVVqKf07jcSvRTGhfrOfgvIP3ECS77BDoAAAAASUVORK5CYII=",
+            labelOrigin: new google.maps.Point(10, 11)
+        };
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(45.019290, 170.957941),
+            title: "./FilesIn/idaeoh11_pic_001.jpg 45.01928972222222170.9579408333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.005898, 175.426937),
+            title: "./FilesIn/idaeoh11_pic_002.jpg 43.005898055555555175.42693694444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(40.827108, 179.554133),
+            title: "./FilesIn/idaeoh11_pic_003.jpg 40.82710777777778179.55413305555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(38.478501, -176.584294),
+            title: "./FilesIn/idaeoh11_pic_004.jpg 38.478501111111115-176.58429361111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(36.011062, -173.011762),
+            title: "./FilesIn/idaeoh11_pic_005.jpg 36.01106194444444-173.01176222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(33.425053, -169.671315),
+            title: "./FilesIn/idaeoh11_pic_006.jpg 33.42505305555555-169.671315",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(30.740673, -166.541941),
+            title: "./FilesIn/idaeoh11_pic_007.jpg 30.740673333333334-166.5419411111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(27.973129, -163.598705),
+            title: "./FilesIn/idaeoh11_pic_008.jpg 27.973129166666666-163.59870472222224",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(25.134667, -160.816814),
+            title: "./FilesIn/idaeoh11_pic_009.jpg 25.1346675-160.81681388888887",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(22.216070, -158.155727),
+            title: "./FilesIn/idaeoh11_pic_010.jpg 22.216070277777778-158.15572666666668",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(19.249839, -155.616460),
+            title: "./FilesIn/idaeoh11_pic_011.jpg 19.249839166666668-155.61646027777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(16.259068, -153.190171),
+            title: "./FilesIn/idaeoh11_pic_012.jpg 16.259067777777776-153.19017083333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(13.232134, -150.842118),
+            title: "./FilesIn/idaeoh11_pic_013.jpg 13.232134166666667-150.8421177777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(10.178209, -148.557284),
+            title: "./FilesIn/idaeoh11_pic_014.jpg 10.17820861111111-148.5572838888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(7.105052, -146.320755),
+            title: "./FilesIn/idaeoh11_pic_015.jpg 7.105051666666666-146.32075527777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(4.018624, -144.117302),
+            title: "./FilesIn/idaeoh11_pic_016.jpg 4.0186238888888886-144.1173025",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(0.924524, -141.932177),
+            title: "./FilesIn/idaeoh11_pic_017.jpg 0.9245244444444444-141.9321772222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-2.188109, -139.739422),
+            title: "./FilesIn/idaeoh11_pic_018.jpg -2.1881086111111108-139.7394222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-5.304123, -137.531230),
+            title: "./FilesIn/idaeoh11_pic_019.jpg -5.3041225-137.53123027777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-8.386636, -135.315233),
+            title: "./FilesIn/idaeoh11_pic_020.jpg -8.386636388888888-135.31523333333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-11.467521, -133.049393),
+            title: "./FilesIn/idaeoh11_pic_021.jpg -11.467520833333333-133.04939333333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-14.560321, -130.701817),
+            title: "./FilesIn/idaeoh11_pic_022.jpg -14.560320555555556-130.70181749999998",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-17.592305, -128.305646),
+            title: "./FilesIn/idaeoh11_pic_023.jpg -17.59230472222222-128.30564611111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-20.612794, -125.798062),
+            title: "./FilesIn/idaeoh11_pic_024.jpg -20.612794166666667-125.79806166666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-23.586039, -123.180711),
+            title: "./FilesIn/idaeoh11_pic_025.jpg -23.58603861111111-123.18071111111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-26.472212, -120.462217),
+            title: "./FilesIn/idaeoh11_pic_026.jpg -26.472211944444442-120.46221666666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-29.323581, -117.560569),
+            title: "./FilesIn/idaeoh11_pic_027.jpg -29.323580555555555-117.56056861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-32.107747, -114.466261),
+            title: "./FilesIn/idaeoh11_pic_028.jpg -32.10774666666667-114.46626083333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-34.798313, -111.164126),
+            title: "./FilesIn/idaeoh11_pic_029.jpg -34.79831333333333-111.16412638888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-37.360654, -107.652119),
+            title: "./FilesIn/idaeoh11_pic_030.jpg -37.36065361111111-107.6521188888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-39.808446, -103.858035),
+            title: "./FilesIn/idaeoh11_pic_031.jpg -39.80844638888889-103.858035",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-42.091678, -99.799454),
+            title: "./FilesIn/idaeoh11_pic_032.jpg -42.09167777777778-99.79945388888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-44.198479, -95.437406),
+            title: "./FilesIn/idaeoh11_pic_033.jpg -44.198479166666665-95.43740555555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-46.104358, -90.752907),
+            title: "./FilesIn/idaeoh11_pic_034.jpg -46.10435833333334-90.75290694444445",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-47.791321, -85.706779),
+            title: "./FilesIn/idaeoh11_pic_035.jpg -47.79132083333333-85.70677888888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-49.218319, -80.332026),
+            title: "./FilesIn/idaeoh11_pic_036.jpg -49.21831916666667-80.33202555555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-50.354269, -74.666839),
+            title: "./FilesIn/idaeoh11_pic_037.jpg -50.35426916666667-74.66683861111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.172354, -68.782296),
+            title: "./FilesIn/idaeoh11_pic_038.jpg -51.172353888888885-68.78229555555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.659354, -62.703949),
+            title: "./FilesIn/idaeoh11_pic_039.jpg -51.659354444444446-62.70394888888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.799439, -56.555949),
+            title: "./FilesIn/idaeoh11_pic_040.jpg -51.79943861111111-56.555949444444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.588533, -50.383030),
+            title: "./FilesIn/idaeoh11_pic_041.jpg -51.58853305555556-50.38303",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.030807, -44.318689),
+            title: "./FilesIn/idaeoh11_pic_042.jpg -51.03080694444444-44.31868916666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-50.147056, -38.480906),
+            title: "./FilesIn/idaeoh11_pic_043.jpg -50.14705611111111-38.48090611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-48.956163, -32.898812),
+            title: "./FilesIn/idaeoh11_pic_044.jpg -48.95616305555556-32.89881222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-47.484204, -27.617489),
+            title: "./FilesIn/idaeoh11_pic_045.jpg -47.484204444444444-27.61748861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-45.749964, -22.635321),
+            title: "./FilesIn/idaeoh11_pic_046.jpg -45.749964166666665-22.63532083333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-43.801696, -18.012209),
+            title: "./FilesIn/idaeoh11_pic_047.jpg -43.801696111111106-18.012209444444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-41.658057, -13.710287),
+            title: "./FilesIn/idaeoh11_pic_048.jpg -41.658056944444446-13.710287222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-39.346078, -9.713457),
+            title: "./FilesIn/idaeoh11_pic_049.jpg -39.34607833333334-9.713456944444443",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-36.870971, -5.971502),
+            title: "./FilesIn/idaeoh11_pic_050.jpg -36.87097138888889-5.971501666666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-34.284499, -2.505081),
+            title: "./FilesIn/idaeoh11_pic_051.jpg -34.28449944444444-2.5050808333333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-31.578822, 0.749615),
+            title: "./FilesIn/idaeoh11_pic_052.jpg -31.5788219444444460.7496152777777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-28.790232, 3.794603),
+            title: "./FilesIn/idaeoh11_pic_053.jpg -28.7902316666666673.7946033333333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-25.924747, 6.665783),
+            title: "./FilesIn/idaeoh11_pic_054.jpg -25.9247466666666676.665783333333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-22.992848, 9.388851),
+            title: "./FilesIn/idaeoh11_pic_055.jpg -22.9928483333333359.388851388888888",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-20.010392, 11.981577),
+            title: "./FilesIn/idaeoh11_pic_056.jpg -20.010392511.981576944444445",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-17.004049, 14.451364),
+            title: "./FilesIn/idaeoh11_pic_057.jpg -17.00404944444444414.45136361111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-13.958785, 16.837417),
+            title: "./FilesIn/idaeoh11_pic_058.jpg -13.95878527777777716.83741722222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-10.880836, 19.157846),
+            title: "./FilesIn/idaeoh11_pic_059.jpg -10.88083611111111219.157845555555554",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-7.757190, 21.443206),
+            title: "./FilesIn/idaeoh11_pic_060.jpg -7.7571921.44320611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-4.628207, 23.684171),
+            title: "./FilesIn/idaeoh11_pic_061.jpg -4.62820666666666723.684170833333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-1.484531, 25.907338),
+            title: "./FilesIn/idaeoh11_pic_062.jpg -1.484530833333333425.907338055555552",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(1.661935, 28.123475),
+            title: "./FilesIn/idaeoh11_pic_063.jpg 1.66193472222222228.12347527777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(4.805035, 30.347344),
+            title: "./FilesIn/idaeoh11_pic_064.jpg 4.80503472222222230.347344444444442",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(7.940293, 32.595093),
+            title: "./FilesIn/idaeoh11_pic_065.jpg 7.94029305555555632.59509305555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(11.025257, 34.855295),
+            title: "./FilesIn/idaeoh11_pic_066.jpg 11.02525722222222334.855295",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(14.072309, 37.155845),
+            title: "./FilesIn/idaeoh11_pic_067.jpg 14.07230916666666737.15584527777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(17.089312, 39.523211),
+            title: "./FilesIn/idaeoh11_pic_068.jpg 17.089312539.52321083333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(20.071488, 41.976398),
+            title: "./FilesIn/idaeoh11_pic_069.jpg 20.07148833333333541.976397500000004",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(23.006689, 44.530167),
+            title: "./FilesIn/idaeoh11_pic_070.jpg 23.00668861111111244.530166666666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(25.888558, 47.206209),
+            title: "./FilesIn/idaeoh11_pic_071.jpg 25.88855805555555647.20620916666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(28.734155, 50.053975),
+            title: "./FilesIn/idaeoh11_pic_072.jpg 28.73415472222222250.05397472222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(31.507807, 53.076613),
+            title: "./FilesIn/idaeoh11_pic_073.jpg 31.50780722222222353.0766125",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(34.187821, 56.290452),
+            title: "./FilesIn/idaeoh11_pic_074.jpg 34.1878208333333356.29045222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(36.737002, 59.689821),
+            title: "./FilesIn/idaeoh11_pic_075.jpg 36.7370022222222259.68982111111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(39.185542, 63.363939),
+            title: "./FilesIn/idaeoh11_pic_076.jpg 39.185542563.36393861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(41.475046, 67.281025),
+            title: "./FilesIn/idaeoh11_pic_077.jpg 41.4750463888888967.281025",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.602791, 71.491967),
+            title: "./FilesIn/idaeoh11_pic_078.jpg 43.6027908333333471.49196694444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(45.545564, 76.018709),
+            title: "./FilesIn/idaeoh11_pic_079.jpg 45.54556361111110676.01870861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(47.282921, 80.892799),
+            title: "./FilesIn/idaeoh11_pic_080.jpg 47.28292083333333680.89279888888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(48.780485, 86.105924),
+            title: "./FilesIn/idaeoh11_pic_081.jpg 48.78048586.10592388888888",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(49.997168, 91.587166),
+            title: "./FilesIn/idaeoh11_pic_082.jpg 49.99716777777777691.58716555555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(50.914657, 97.308158),
+            title: "./FilesIn/idaeoh11_pic_083.jpg 50.91465694444444597.30815777777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.521286, 103.298513),
+            title: "./FilesIn/idaeoh11_pic_084.jpg 51.52128583333333103.29851277777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.787911, 109.371554),
+            title: "./FilesIn/idaeoh11_pic_085.jpg 51.78791111111111109.37155361111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.714058, 115.424292),
+            title: "./FilesIn/idaeoh11_pic_086.jpg 51.71405805555556115.42429222222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.304048, 121.420706),
+            title: "./FilesIn/idaeoh11_pic_087.jpg 51.304048055555555121.42070555555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(50.570909, 127.247400),
+            title: "./FilesIn/idaeoh11_pic_088.jpg 50.570908611111115127.24740027777779",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(49.531242, 132.853382),
+            title: "./FilesIn/idaeoh11_pic_089.jpg 49.531241666666666132.85338194444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(48.208477, 138.184583),
+            title: "./FilesIn/idaeoh11_pic_090.jpg 48.20847694444445138.1845827777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(46.625949, 143.218523),
+            title: "./FilesIn/idaeoh11_pic_091.jpg 46.62594861111111143.2185225",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(44.816764, 147.924865),
+            title: "./FilesIn/idaeoh11_pic_092.jpg 44.81676388888889147.92486499999998",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(42.806307, 152.313289),
+            title: "./FilesIn/idaeoh11_pic_093.jpg 42.806307222222216152.3132891666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(40.614236, 156.407908),
+            title: "./FilesIn/idaeoh11_pic_094.jpg 40.61423638888889156.40790805555557",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(38.265691, 160.222859),
+            title: "./FilesIn/idaeoh11_pic_095.jpg 38.26569138888889160.22285861111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(35.784992, 163.776660),
+            title: "./FilesIn/idaeoh11_pic_096.jpg 35.78499194444444163.77665972222223",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(33.190881, 167.095641),
+            title: "./FilesIn/idaeoh11_pic_097.jpg 33.19088055555555167.09564055555558",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(30.497733, 170.208420),
+            title: "./FilesIn/idaeoh11_pic_098.jpg 30.497732777777777170.20842",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(27.723608, 173.136130),
+            title: "./FilesIn/idaeoh11_pic_099.jpg 27.723607777777776173.13613027777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(24.877658, 175.906439),
+            title: "./FilesIn/idaeoh11_pic_100.jpg 24.877658055555557175.90643944444446",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(21.973294, 178.539311),
+            title: "./FilesIn/idaeoh11_pic_101.jpg 21.97329444444444178.53931111111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(19.020715, -178.944764),
+            title: "./FilesIn/idaeoh11_pic_102.jpg 19.02071472222222-178.94476416666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(15.991795, -176.497424),
+            title: "./FilesIn/idaeoh11_pic_103.jpg 15.991795-176.4974236111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(12.922789, -174.125771),
+            title: "./FilesIn/idaeoh11_pic_104.jpg 12.922789166666666-174.12577055555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(9.841304, -171.827958),
+            title: "./FilesIn/idaeoh11_pic_105.jpg 9.841303611111112-171.82795805555554",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(6.733948, -169.572487),
+            title: "./FilesIn/idaeoh11_pic_106.jpg 6.7339480555555555-169.5724872222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(3.634617, -167.363738),
+            title: "./FilesIn/idaeoh11_pic_107.jpg 3.6346166666666666-167.36373805555556",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(0.521484, -165.166876),
+            title: "./FilesIn/idaeoh11_pic_108.jpg 0.5214844444444445-165.16687638888888",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-2.573297, -162.986089),
+            title: "./FilesIn/idaeoh11_pic_109.jpg -2.573296944444444-162.98608888888887",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-5.663048, -160.793729),
+            title: "./FilesIn/idaeoh11_pic_110.jpg -5.663047777777778-160.7937286111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-8.794271, -158.537357),
+            title: "./FilesIn/idaeoh11_pic_111.jpg -8.794270555555556-158.53735666666665",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-11.904826, -156.240977),
+            title: "./FilesIn/idaeoh11_pic_112.jpg -11.904826111111111-156.24097666666665",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-14.993034, -153.884728),
+            title: "./FilesIn/idaeoh11_pic_113.jpg -14.993034166666666-153.88472805555554",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-18.050849, -151.451990),
+            title: "./FilesIn/idaeoh11_pic_114.jpg -18.05084861111111-151.45199027777775",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-21.068086, -148.926269),
+            title: "./FilesIn/idaeoh11_pic_115.jpg -21.06808638888889-148.92626888888887",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-24.036398, -146.287626),
+            title: "./FilesIn/idaeoh11_pic_116.jpg -24.03639805555556-146.2876261111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-26.913423, -143.547058),
+            title: "./FilesIn/idaeoh11_pic_117.jpg -26.91342333333333-143.54705805555557",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-29.754663, -140.618451),
+            title: "./FilesIn/idaeoh11_pic_118.jpg -29.754663333333333-140.6184513888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-32.512013, -137.510118),
+            title: "./FilesIn/idaeoh11_pic_119.jpg -32.512013055555556-137.51011777777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-35.170551, -134.197010),
+            title: "./FilesIn/idaeoh11_pic_120.jpg -35.17055055555555-134.19700972222222",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-37.717734, -130.646892),
+            title: "./FilesIn/idaeoh11_pic_121.jpg -37.717733611111115-130.64689166666665",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-40.131577, -126.836409),
+            title: "./FilesIn/idaeoh11_pic_122.jpg -40.13157666666667-126.83640861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-42.393126, -122.735194),
+            title: "./FilesIn/idaeoh11_pic_123.jpg -42.39312611111111-122.73519416666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-44.474969, -118.326829),
+            title: "./FilesIn/idaeoh11_pic_124.jpg -44.47496944444445-118.32682916666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-46.360531, -113.570076),
+            title: "./FilesIn/idaeoh11_pic_125.jpg -46.360530833333335-113.57007555555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-48.003639, -108.505328),
+            title: "./FilesIn/idaeoh11_pic_126.jpg -48.00363888888889-108.50532805555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-49.392349, -103.087999),
+            title: "./FilesIn/idaeoh11_pic_127.jpg -49.39234944444444-103.08799888888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-50.482399, -97.410335),
+            title: "./FilesIn/idaeoh11_pic_128.jpg -50.48239916666667-97.410335",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.259962, -91.469171),
+            title: "./FilesIn/idaeoh11_pic_129.jpg -51.25996166666667-91.46917111111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.700201, -85.358447),
+            title: "./FilesIn/idaeoh11_pic_130.jpg -51.700200833333334-85.35844666666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.791093, -79.205468),
+            title: "./FilesIn/idaeoh11_pic_131.jpg -51.79109277777778-79.20546833333334",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-51.531468, -73.049407),
+            title: "./FilesIn/idaeoh11_pic_132.jpg -51.53146805555556-73.04940694444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-50.930722, -67.039906),
+            title: "./FilesIn/idaeoh11_pic_133.jpg -50.93072222222222-67.03990555555555",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-50.003921, -61.230962),
+            title: "./FilesIn/idaeoh11_pic_134.jpg -50.00392055555555-61.230961666666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-48.773681, -55.687789),
+            title: "./FilesIn/idaeoh11_pic_135.jpg -48.77368083333333-55.68778916666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-47.265128, -50.446465),
+            title: "./FilesIn/idaeoh11_pic_136.jpg -47.26512833333334-50.446464999999996",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-45.508992, -45.535003),
+            title: "./FilesIn/idaeoh11_pic_137.jpg -45.5089925-45.53500333333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-43.522415, -40.930056),
+            title: "./FilesIn/idaeoh11_pic_138.jpg -43.522415277777775-40.93005611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-41.339486, -36.643291),
+            title: "./FilesIn/idaeoh11_pic_139.jpg -41.339485555555555-36.64329083333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-38.991746, -32.666020),
+            title: "./FilesIn/idaeoh11_pic_140.jpg -38.99174555555555-32.666019722222224",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-36.502156, -28.970848),
+            title: "./FilesIn/idaeoh11_pic_141.jpg -36.502155555555554-28.970848055555553",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-33.897109, -25.536533),
+            title: "./FilesIn/idaeoh11_pic_142.jpg -33.89710861111111-25.536533333333335",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-31.187982, -22.324923),
+            title: "./FilesIn/idaeoh11_pic_143.jpg -31.18798222222222-22.32492277777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-28.389317, -19.307859),
+            title: "./FilesIn/idaeoh11_pic_144.jpg -28.389316944444445-19.30785861111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-25.515408, -16.460632),
+            title: "./FilesIn/idaeoh11_pic_145.jpg -25.515408333333333-16.460632222222223",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-22.575928, -13.757402),
+            title: "./FilesIn/idaeoh11_pic_146.jpg -22.575928055555554-13.757401944444444",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-19.583568, -11.178284),
+            title: "./FilesIn/idaeoh11_pic_147.jpg -19.583567777777777-11.178284166666666",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-16.547443, -8.702668),
+            title: "./FilesIn/idaeoh11_pic_148.jpg -16.547443333333334-8.702668055555554",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-13.472132, -6.308758),
+            title: "./FilesIn/idaeoh11_pic_149.jpg -13.472131666666666-6.3087583333333335",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-10.372537, -3.984615),
+            title: "./FilesIn/idaeoh11_pic_150.jpg -10.372536944444445-3.9846150000000002",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-7.287605, -1.736424),
+            title: "./FilesIn/idaeoh11_pic_151.jpg -7.287605277777778-1.736423611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-4.150693, 0.504688),
+            title: "./FilesIn/idaeoh11_pic_152.jpg -4.1506933333333340.5046877777777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(-1.006288, 2.725769),
+            title: "./FilesIn/idaeoh11_pic_153.jpg -1.00628833333333322.725769166666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(2.141636, 4.943242),
+            title: "./FilesIn/idaeoh11_pic_154.jpg 2.14163638888888874.943241666666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(5.285751, 7.171070),
+            title: "./FilesIn/idaeoh11_pic_155.jpg 5.28575138888888857.17107",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(8.368344, 9.386854),
+            title: "./FilesIn/idaeoh11_pic_156.jpg 8.3683438888888899.386853888888888",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(11.482615, 11.677240),
+            title: "./FilesIn/idaeoh11_pic_157.jpg 11.48261527777777911.677240277777777",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(14.524901, 13.986201),
+            title: "./FilesIn/idaeoh11_pic_158.jpg 14.52490055555555613.986201388888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(17.542446, 16.369524),
+            title: "./FilesIn/idaeoh11_pic_159.jpg 17.5424461111111116.36952388888889",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(20.536825, 18.852714),
+            title: "./FilesIn/idaeoh11_pic_160.jpg 20.53682518.85271416666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(23.465651, 21.425671),
+            title: "./FilesIn/idaeoh11_pic_161.jpg 23.46565138888888721.425670833333335",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(26.342024, 24.126637),
+            title: "./FilesIn/idaeoh11_pic_162.jpg 26.3420236111111124.126636944444446",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(29.151218, 26.972996),
+            title: "./FilesIn/idaeoh11_pic_163.jpg 29.15121833333333326.972996388888888",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(31.885003, 29.991376),
+            title: "./FilesIn/idaeoh11_pic_164.jpg 31.8850027777777829.991376111111112",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(34.545991, 33.227415),
+            title: "./FilesIn/idaeoh11_pic_165.jpg 34.54599083333333533.227415",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(37.099801, 36.687716),
+            title: "./FilesIn/idaeoh11_pic_166.jpg 37.0998008333333336.68771611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(39.529444, 40.400586),
+            title: "./FilesIn/idaeoh11_pic_167.jpg 39.52944416666666440.40058611111111",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(41.797541, 44.360747),
+            title: "./FilesIn/idaeoh11_pic_168.jpg 41.7975405555555644.36074666666667",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(43.897631, 48.612213),
+            title: "./FilesIn/idaeoh11_pic_169.jpg 43.8976305555555648.61221277777778",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(45.808794, 53.179583),
+            title: "./FilesIn/idaeoh11_pic_170.jpg 45.80879361111110653.17958333333333",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(47.503328, 58.069835),
+            title: "./FilesIn/idaeoh11_pic_171.jpg 47.50332805555555658.069835000000005",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(48.951540, 63.271475),
+            title: "./FilesIn/idaeoh11_pic_172.jpg 48.9515402777777863.271475",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(50.128083, 68.768712),
+            title: "./FilesIn/idaeoh11_pic_173.jpg 50.1280830555555668.76871249999999",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.014202, 74.574550),
+            title: "./FilesIn/idaeoh11_pic_174.jpg 51.01420222222222474.57455",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.571526, 80.509140),
+            title: "./FilesIn/idaeoh11_pic_175.jpg 51.5715258333333480.50914",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(51.796925, 86.583350),
+            title: "./FilesIn/idaeoh11_pic_176.jpg 51.7969247222222286.58335",
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+    }
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 100%;" />
+</body>
+</html>
